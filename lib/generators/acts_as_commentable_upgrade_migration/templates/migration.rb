@@ -8,6 +8,7 @@ class ActsAsCommentableUpgradeMigration < ActiveRecord::Migration
     add_column    :comments, :updated_at, :datetime
     add_column    :comments, :commenter_id, :integer
     add_column    :comments, :commenter_type, :string
+    add_column    :comments, :highlight, :boolean, :default => false
     remove_column :comments, :updated_at
     remove_column :comments, :user_id
     remove_column :comments, :user_type
@@ -27,6 +28,7 @@ class ActsAsCommentableUpgradeMigration < ActiveRecord::Migration
     remove_column :comments, :updated_at
     remove_column :comments, :commenter_id, :integer
     remove_column :comments, :commenter_type, :string
+    remove_column :comments, :highlight, :boolean
     
     add_column    :comments, :user_id, :integer
     add_column    :comments, :user_type, :string
