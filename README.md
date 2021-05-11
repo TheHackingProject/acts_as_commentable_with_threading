@@ -1,6 +1,14 @@
 [![Build Status](https://travis-ci.org/elight/acts_as_commentable_with_threading.png)](https://travis-ci.org/elight/acts_as_commentable_with_threading)
 [![Code Climate](https://codeclimate.com/github/elight/acts_as_commentable_with_threading/badges/gpa.svg)](https://codeclimate.com/github/elight/acts_as_commentable_with_threading)
 
+
+
+⚠️ This is a forked version of the Gem with polymorphism also on the commentator.
+------------
+For now, see this for more details:
+https://github.com/elight/acts_as_commentable_with_threading/pull/66
+
+
 Acts As Commentable (now with comment threads(TM)!!!  -- kidding on the (TM))
 ===================
 
